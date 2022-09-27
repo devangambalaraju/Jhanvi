@@ -16,7 +16,7 @@ Set objExcel = CreateObject("Excel.Application")
     RowCount = objSheet.UsedRange.Rows.Count
      For i = 1 To RowCount 
         For j = 1 To ColCount
-            fieldvalue = objSheet.Cells(i,j)
+            fieldvalue = objSheet.Cells(i,j) 'test
            
             MsgBox fieldvalue
         Next
